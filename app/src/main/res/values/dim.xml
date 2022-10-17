@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="my_borders">25dp</dimen>
+    <dimen name="my_buttons">10dp</dimen>
+    <dimen name="my_text">20sp</dimen>
+</resources>
