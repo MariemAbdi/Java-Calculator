@@ -12,7 +12,6 @@ Calculator Assignment Using Java (Android)
 <img src="https://user-images.githubusercontent.com/100727442/196238435-df077112-a017-40af-9809-d2477b33546a.jpg" width="300">
 <img src="https://user-images.githubusercontent.com/100727442/196238547-4336a7ad-cefb-434c-ab64-9c67b90dd787.jpg" width="300">
 <img src="https://user-images.githubusercontent.com/100727442/196238623-f0b212de-d1f1-4f83-bda2-85e10a9be5bb.jpg" width="300">
-<img src="https://user-images.githubusercontent.com/100727442/196238766-d67091a8-bc6e-4868-98ef-54f83fc8994c.jpg" width="300">
 </p>
 <p float="left" align="center">
 <img src="https://user-images.githubusercontent.com/100727442/196238821-1905f0df-41f7-49b0-84c3-b6debfd00c77.jpg" width="300">
