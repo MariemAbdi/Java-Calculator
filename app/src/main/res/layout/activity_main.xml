@@ -9,7 +9,7 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/result"
+        android:id="@+id/calcul"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:maxLines="1"
@@ -21,7 +21,7 @@
         />
 
     <TextView
-        android:id="@+id/calcul"
+        android:id="@+id/result"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="30dp"
@@ -64,7 +64,7 @@
             android:layout_height="match_parent"
             android:background="@color/background"
             android:textColor="@color/green"
-            android:text="@string/power"
+            android:text="@string/parentopen"
             android:gravity="center"
             android:textSize="30sp"
             android:onClick="onButtonClicked"
@@ -74,7 +74,7 @@
             android:id="@+id/percent"
             android:gravity="center"
             android:textColor="@color/green"
-            android:text="@string/percent"
+            android:text="@string/parentclose"
             android:textSize="30sp"
             android:background="@color/background"
             android:layout_weight="1"

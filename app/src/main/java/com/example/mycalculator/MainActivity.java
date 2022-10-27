@@ -17,7 +17,7 @@ import org.mozilla.javascript.Scriptable;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button division,puissance,fois,moins,plus,pourcent;
+    Button division,fois,moins,plus;
     TextView result,calculating;
     String calcul;
     SharedPreferences sharedpreferences;
@@ -38,13 +38,11 @@ public class MainActivity extends AppCompatActivity {
         editor = sharedpreferences.edit();
 
         // Define Hooks
-        // Operators, Percent, Power & point buttons
+        // Operators' buttons
         division= findViewById(R.id.division);
         fois= findViewById(R.id.multiply);
         moins= findViewById(R.id.minus);
         plus= findViewById(R.id.plus);
-        puissance= findViewById(R.id.power);
-        pourcent= findViewById(R.id.percent);
         // Result and Current Calculations TextViews
         result= findViewById(R.id.result);
         calculating= findViewById(R.id.calcul);
@@ -71,28 +69,34 @@ public class MainActivity extends AppCompatActivity {
                 }
                 break;
 
-            case "^":
-                checking();
-                calculating.setText(calculating.getText()+puissance.getText().toString());
+            case "(":
+                //checking();
+                //calculating.setText(calculating.getText()+puissance.getText().toString());
+                result.setText("");
+                Parantheses("(");
                 break;
 
             case "*":
                 checking();
+                result.setText("");
                 calculating.setText(calculating.getText()+fois.getText().toString());
                 break;
 
             case "+":
                 checking();
+                result.setText("");
                 calculating.setText(calculating.getText()+plus.getText().toString());
                 break;
 
             case "-":
                 checking();
+                result.setText("");
                 calculating.setText(calculating.getText()+moins.getText().toString());
                 break;
 
             case "/":
                 checking();
+                result.setText("");
                 calculating.setText(calculating.getText()+division.getText().toString());
                 break;
 
@@ -104,28 +108,44 @@ public class MainActivity extends AppCompatActivity {
                 else
                 {
                     checking();
+                    result.setText("");
                     calculating.setText(calculating.getText() + ".");
                 }
 
                 break;
 
-            case "%":
-                checking();
+            case ")":
+                /*checking();
                 calculating.setText(calculating.getText()+pourcent.getText().toString());
                 double d = Double.parseDouble(calculating.getText().toString().substring(0,calculating.getText().toString().length()-1)) / 100;
                 result.setText(String.valueOf(d));
-                calculating.setText(String.valueOf(d));
+                calculating.setText(String.valueOf(d));*/
+                result.setText("");
+                Parantheses(")");
                 break;
 
             case "=":
-                result.setText(solve(calcul));
+                result.setText("");
                 calculating.setText(solve(calcul));
                 break;
 
             default:
                 calculating.setText(calcul+data);
+                if((calcul.length()>1)&&(!solve(calcul+data).equals("ERROR")))
+                result.setText(solve(calcul+data));
+
         }
 
+    }
+
+    private void Parantheses(String p){
+        if(calculating.getText().length()>0) {
+            if(!String.valueOf(calcul.charAt(calcul.length()-1)).equals(p)){
+                calculating.setText(calculating.getText()+p);
+            }
+        }else if ((calculating.getText().length()==0) && (p.equals("("))){
+            calculating.setText(p);
+        }
     }
 
     private void checking() {
@@ -176,7 +196,7 @@ public class MainActivity extends AppCompatActivity {
             return finalResult;
         }catch (Exception e){
             callToast(e.getMessage());
-            return "Error";
+            return "ERROR";
         }
     }
 

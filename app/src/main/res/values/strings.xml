@@ -17,9 +17,9 @@
     <string name="point">.</string>
     <string name="AC">AC</string>
     <string name="CE">CE</string>
-    <string name="percent">%</string>
+    <string name="parentclose">)</string>
     <string name="equal">=</string>
     <string name="plusminus">+/-</string>
-    <string name="power">^</string>
+    <string name="parentopen">(</string>
 
 </resources>
