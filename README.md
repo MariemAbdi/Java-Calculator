@@ -1,13 +1,18 @@
 # Java-Calculator
 Calculator Assignment Using Java (Android)
 
-<h1 align="center">Orientation</h1>
+<p>
+<video src="https://user-images.githubusercontent.com/100727442/206919681-a9a4404a-82c9-412f-92df-46d9dfdc26ad.mp4" width=180/>
+</p>
+
+<h1 align="center">SCREENSHOTS</h1>
+<h2 align="center">Orientation</h2>
 <p float="left" align="center">
 <img src="https://user-images.githubusercontent.com/100727442/196237617-54d8a345-5240-4c05-bf2b-68b25698a27f.jpg" width="300">
 <img src="https://user-images.githubusercontent.com/100727442/196238298-cb54bf72-5050-4dbd-8f6e-b5a491ba2554.jpg" width="300">
 </p>
 
-<h1 align="center">Some Operations</h1>
+<h2 align="center">Some Operations</h2>
 <p float="left" align="center">
 <img src="https://user-images.githubusercontent.com/100727442/196238435-df077112-a017-40af-9809-d2477b33546a.jpg" width="300">
 <img src="https://user-images.githubusercontent.com/100727442/196238547-4336a7ad-cefb-434c-ab64-9c67b90dd787.jpg" width="300">
@@ -18,9 +23,4 @@ Calculator Assignment Using Java (Android)
 <img src="https://user-images.githubusercontent.com/100727442/196239016-1f33f441-3247-4afc-9b6e-ab4ce1df8f72.jpg" width="300">
 <img src="https://user-images.githubusercontent.com/100727442/196239179-7875ecdd-8118-4ea1-b4bf-a3b35d224840.jpg" width="300">
 <img src="https://user-images.githubusercontent.com/100727442/196239197-1ebbeac9-3942-4c3d-91d3-fd314944abc2.jpg" width="300">
-</p>
-
-
-<p>
-https://user-images.githubusercontent.com/100727442/206919681-a9a4404a-82c9-412f-92df-46d9dfdc26ad.mp4
 </p>
