@@ -1,8 +1,9 @@
 # Java-Calculator
 Calculator Assignment Using Java (Android)
 
-<p>
-<video src="https://user-images.githubusercontent.com/100727442/206919681-a9a4404a-82c9-412f-92df-46d9dfdc26ad.mp4" width=180/>
+<h1 align="center">DEMO</h1>
+<p align="center">
+<video src="https://user-images.githubusercontent.com/100727442/206919681-a9a4404a-82c9-412f-92df-46d9dfdc26ad.mp4" width="300"/>
 </p>
 
 <h1 align="center">SCREENSHOTS</h1>
