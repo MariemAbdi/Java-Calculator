@@ -7,7 +7,6 @@ Calculator Assignment Using Java (Android)
 </div>
 
 <h1 align="center">SCREENSHOTS</h1>
-<h2 align="center">Orientation</h2>
 <p float="left" align="center">
 <img src="https://user-images.githubusercontent.com/100727442/206921055-0a32f8d0-5c87-456c-a0b9-ee2e8a6d306e.jpg" width="300">
 <img src="https://user-images.githubusercontent.com/100727442/206921022-def89114-11c3-4571-b732-5f4e59e50f7c.jpg" width="300">
